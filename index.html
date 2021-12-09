@@ -22,7 +22,7 @@
         <a class="menu-toggle rounded" href="#"><i class="fas fa-bars"></i></a>
         <nav id="sidebar-wrapper">
             <ul class="sidebar-nav">
-                <li class="sidebar-brand"><a href="#page-top">RUTE</a></li>
+                <li class="sidebar-brand"></li>
                 <li class="sidebar-nav-item"><a href="#page-top">Home</a></li>
                 <li class="sidebar-nav-item"><a href="#about">About</a></li>
                 <li class="sidebar-nav-item"><a href="#offer">Offer</a></li>
@@ -102,17 +102,17 @@
                             <!-- Button trigger modal -->
                             <button type="button" class="btn btn-dark btn-xl" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                                 Klik disini
-                            </button><br>
+                            </button>
                             
                             <!-- Modal -->
                             <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-lg">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                                 <div class="modal-content">
                                     <div class="modal-header">
                                     <h5 class="modal-title" id="staticBackdropLabel">Antara lain:</h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
-                                    <div class="modal-body text-start">
+                                    <div class="modal-body text-start modal-fullscreen-lg-down">
                                         <ol class="list-group list-group-numbered">
                                             <li class="list-group-item">Pengaturan penomoran daftar isi, daftar gambar, daftar tabel secara otomatis</li>
                                             <li class="list-group-item">Pembuatan jarak antar paragraf yang tepat</li>
@@ -120,6 +120,7 @@
                                             <li class="list-group-item">Pengecekan dan perbaikan susunan penomoran (numbering) yang tepat</li>
                                             <li class="list-group-item">Pengeditan cara pengutipan sesuai panduan yang masih berlaku dengan Mendeley</li>
                                             <li class="list-group-item">Pengecekan kapitalisasi dan penggunaan tanda kutip yang tepat</li>
+                                            <li class="list-group-item">Pengaturan ukuran tabel dan tulisan yg ada didalamnya agar rapi</li>
                                             <li class="list-group-item">Pengeditan konten yang ada pada file pdf ke MS word</li>
                                             <li class="list-group-item">Dan hal-hal lain yang berkenaan dengan sistematika penulisan skripsi</li>
                                           </ol>
@@ -132,11 +133,11 @@
                             </div>
                             
                             <!-- Disclaimer -->
-                            <p>
+                            
                                 <a class="btn btn-danger" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
                                   Disclaimer
                                 </a>
-                            </p>
+                            
                               <div class="collapse" id="collapseExample">
                                 <div class="card card-body">
                                     Perlu ditekankan bahwa yang saya tawarkan adalah jasa pengeditan, bukan penulisan skripsi. Jadi saya tidak akan menambahkan maupun mengubah kalimat atau paragraf pada skripsi yang telah anda buat.
@@ -154,7 +155,21 @@
                 <div class="content-section-heading">
                 <h3 class="text-secondary mb-0">Sample</h3>
                 <h4 class="mb-4">Dibawah ini adalah beberapa sampel halaman yang telah saya edit</h4>
-                <embed src="sampleThesis.pdf" width="800" height="500" type="application/pdf"><br>
+                <div class="clearfix">
+                    <!-- bagian preview pdf -->
+                    <p>
+                        <a class="btn btn-danger" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                          Cek Aja
+                        </a>
+                    </p>
+                      <div class="collapse" id="collapseExample">
+                        <div class="card card-body">
+                            <embed src="sampleThesis.pdf" class="col-md-12 float-md-end mb-3 ms-md-3" width="auto" height="480" type="application/pdf">
+                        </div>
+                      </div>
+                    <!-- akhir preview -->
+                    <br>
+                </div>
                 </div>
             </div>
         </section>        
@@ -177,7 +192,7 @@
                         <p class="text-faded mb-0">Kalian tidak perlu lagi capek mengedit mulai dari awal sampai akhir skripsi dan harus mengecek ulang berkali-kali hinggga sesuai dengan aturan universitas</p>
                     </div>
                     <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-like"></i></span>
+                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="far fa-thumbs-up"></i></i></span>
                         <h4><strong>Simple & Better</strong></h4>
                         <p class="text-faded mb-0">
                             Kalian tidak perlu bingung mengedit yang mana, biar saya perbaiki dan pastinya lebih baik dari pada sebelumnya
@@ -202,8 +217,8 @@
                         <p style="color: aliceblue;">Disini kami menawarkan dua pilihan harga, mulai dari tahap uji coba untuk mengetahui bagaimana jasa yang kami lakukan dan harga normal yang nantinya akan dilakukan pengeditan serta memberikan feedback terkait perubahan yang saya lakukan </p>
                     </div>
 
-                    <div class="row">
-                        <div class="col">
+                    <div class="row gx-4 gx-lg-5">
+                        <div class="col-md-6 mb-5 mb-lg-0">
                             <div class="card text-center">
                                 <div class="card-header fw-bolder fs-5">LITE</div>
                                 <div class="card-body">
@@ -220,7 +235,7 @@
                         </div>
 
                         
-                        <div class="col">
+                        <div class="col-md-6 mb-5 mb-lg-0">
                             <div class="card text-center">
                                 <div class="card-header fw-bolder fs-5">STANDARD</div>
                                 <div class="card-body">
@@ -237,13 +252,7 @@
                     </div>
                 </div>
             </div>
-            
-            
-
         </section>
-   
-
-
        
         
         <!-- Footer-->
