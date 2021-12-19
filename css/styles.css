@@ -12568,3 +12568,18 @@ footer.footer .social-link:hover {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.howpreview {
+  padding: 1rem 0;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-masthead.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.batasan {
+  padding: 0.5rem 0;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
