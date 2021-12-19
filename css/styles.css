@@ -12381,7 +12381,7 @@ html {
 }
 
 .callout {
-  padding: 10rem 0;
+  padding: 2rem 0;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-callout.jpg");
   background-position: center center;
   background-repeat: no-repeat;
@@ -12397,8 +12397,8 @@ html {
 }
 
 footer.footer {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 footer.footer .social-link {
